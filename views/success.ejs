@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Google SignIn</title>
+</head>
+
+<body>
+  <strong>Id</strong>: <%= user.id %><br>
+  <strong>Email</strong>: <%= user.emails[0].value %><br>
+  <strong>Name</strong>: <%= user.displayName %><br>
+  <strong><img src="<%= user.photos[0].value %>" alt=""></strong>
+</body>
+
+</html>
